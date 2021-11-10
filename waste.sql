@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.1
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Oct 12, 2019 at 03:03 PM
--- Server version: 10.3.16-MariaDB
--- PHP Version: 7.3.2
+-- Host: 127.0.0.1
+-- Generation Time: Nov 10, 2021 at 06:14 PM
+-- Server version: 10.4.17-MariaDB
+-- PHP Version: 8.0.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -19,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `id8762998_sih2019`
+-- Database: `waste`
 --
 
 -- --------------------------------------------------------
@@ -156,16 +155,17 @@ CREATE TABLE `user_data` (
   `id` int(11) NOT NULL,
   `name` varchar(50) NOT NULL,
   `number` bigint(10) NOT NULL,
-  `adress` varchar(50)  NOT NULL,
-  `city` varchar(50)  NOT NULL
+  `address` varchar(50) NOT NULL,
+  `city` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `user_data`
 --
 
-INSERT INTO `user_data` (`id`, `name`, `number`, `adress`, `city`) VALUES
-(1, 'Kartik', 7023966576, 'VIT', 'Vellore');
+INSERT INTO `user_data` (`id`, `name`, `number`, `address`, `city`) VALUES
+(1, 'Kartik', 7023966576, 'VIT', 'Vellore'),
+(2, 'Arshdeep Singh Bhatia', 8754541603, 'A4-405 adora akshaya homes', 'Chennai');
 
 -- --------------------------------------------------------
 
@@ -209,7 +209,8 @@ CREATE TABLE `waste_record` (
 
 INSERT INTO `waste_record` (`id`, `number`, `a`, `b`, `c`, `raise`) VALUES
 (1, 7023966576, 0, 0, 0, 'no'),
-(2, 7023966576, 1, 1, 0, 'no');
+(2, 7023966576, 1, 1, 0, 'no'),
+(3, 8754541603, 1, 0, 1, 'yes');
 
 --
 -- Indexes for dumped tables
@@ -303,7 +304,7 @@ ALTER TABLE `truckcall`
 -- AUTO_INCREMENT for table `user_data`
 --
 ALTER TABLE `user_data`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `van`
@@ -315,7 +316,7 @@ ALTER TABLE `van`
 -- AUTO_INCREMENT for table `waste_record`
 --
 ALTER TABLE `waste_record`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Constraints for dumped tables
