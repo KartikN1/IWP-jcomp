@@ -5,9 +5,9 @@
 <body style="background-image:url('images/complaint.jpg');background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;">
-<!--<div class="container-fuild heading" >
-<p class="letter">E Waste Vellore</p>
-</div>-->
+<div class="container-fuild heading" >
+<p class="letter">E-Waste Management</p>
+</div>
      <?php
  
  include "nav.php"
@@ -32,35 +32,32 @@
     <label for="number" >Address : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
     <textarea name="address" class="detail" cols="50" rows="3" style="margin-left:50px"></textarea>
     
-    
+    <br><br>
+    <label for="type"> Select Type of Waste: </label><br><br>
+    <input for="a" type="checkbox" name="a" value="1">&nbsp;&nbsp;&nbsp;
+    <label for="a">Chemical </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br>
-    <label for="a" >Chemical : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input for="a" type="checkbox" name="a" value="1"><br>
+    <input for="b" type="checkbox" name="b" value="1">&nbsp;&nbsp;&nbsp;
+    <label for="b">Medical </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
   
-    <label for="b">Medical : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input for="br" type="checkbox" name="b" value="1"><br>
+    <input for="c" type="checkbox" name="c" value="1">&nbsp;&nbsp;&nbsp;
+    <label for="c">Metallic </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
+    <input for="d" type="checkbox" name="d" value="1">&nbsp;&nbsp;&nbsp;
+    <label for="d">Plastic </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
+    <input for="e" type="checkbox" name="e" value="1">&nbsp;&nbsp;&nbsp;  
+    <label for="e">Biodegradable </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br>
+    <input for="f" type="checkbox" name="f" value="1">&nbsp;&nbsp;&nbsp;
+    <label for="f">Glass </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br> <br>
   
-    
-    <label for="c">Metallic : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input for="c" type="checkbox" name="c" value="1"><br>
-  
-    
-    <label for="d">Plastic : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input for="d" type="checkbox" name="d" value="1"><br>
-  
-    
-    <label for="e">Biodegradable : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input for="e" type="checkbox" name="e" value="1"><br>
-  
-    
-    <label for="f">Glass : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input for="f" type="checkbox" name="f" value="1"><br>
-  
-    
     <label for="details">Any other specifications : </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
     <textarea class="detail" name="details" cols="50" rows="3" style="margin-left:50px"></textarea>
     
-  <input type="file" name="photo" multiple accept='image/*'>
+
 
     
     

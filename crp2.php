@@ -20,15 +20,15 @@ die('There was an error running the query [' . $conn->error . ']');
 }
 else
 {
-echo "your data is updated in our database...";
-    header("Refresh: 5,url=crp.php");
+echo "<script> alert('Your complaint has been registered and will be resolved soon...')</script>";
+    header("Refresh: 0.001,url=crp.php");
 }
   
     }
     else
     {
         echo"sorry";
-        header("Refresh: 5,url=crp.php");
+        header("Refresh: 0.001,url=crp.php");
         
     }
    
@@ -37,4 +37,4 @@ echo "your data is updated in our database...";
         
         
 
-	?>
+

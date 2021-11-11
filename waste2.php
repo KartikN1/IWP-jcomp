@@ -23,15 +23,15 @@ die('There was an error running the query [' . $conn->error . ']');
 }
 else
 {
-echo "your data is updated in our database...now redirecting to final map";
-    header("Refresh: 5,url=waste.php");
+echo "<script> alert('Your data is updated in our database. To dispose the waste, you will be contacted soon...')</script>";
+    header("Refresh: 0.001,url=waste.php");
 }
   
     }
    else
     {
-        echo "Sorry.. your are not registered ";
-		 header("Refresh: 5,url=waste.php");
+        echo "<script> alert('Sorry.. your are not registered') </script>";
+		 header("Refresh: 0.001,url=waste.php");
     }
 }
     else{

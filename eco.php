@@ -6,7 +6,7 @@
 <body style="background-image:url('images/newback.jpg');">
 
 <div class="container-fuild heading" >
-<p class="letter">E Waste Vellore</p>
+<p class="letter">E Waste Management</p>
 </div>
  <?php
  
@@ -19,9 +19,9 @@
 
 
 <div class="container-fluid" style="background-color:#e3eae5;border-radius:20px;">
-<h2> AMOUNT OF WASTE COLLECTED</h2>
+<h2 style="text-align: center;"> AMOUNT OF WASTE COLLECTED</h2>
   <div class="row">
-    <div class="col-sm" style="margin-bottom:10px;float:left;margin:2.66%">
+    <div class="col-sm" style="margin-bottom:10px;float:left;margin:1.66%">
       <center><h3>CHEMICAL</h3><img src="images/chemicalwaste.jpg" alt="Ganit" class="jayimg divimg" style="width:250px;height:200px;border-radius:20px;"></a><P> 5 TONS</center>
     </div>
 	<div class="col-sm" style="margin-bottom:10px;float:left;margin:1.66%">
@@ -43,7 +43,8 @@
     </div>
   </div>
 </div>
-
+<div style="padding: 400px;">
+</div>
 
   
 </div>

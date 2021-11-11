@@ -10,7 +10,7 @@
 			background-size: cover;">
 
 <div class="container-fuild heading" >
-<p class="letter">E Waste Vellore</p>
+<p class="letter">E-Waste Management</p>
 </div>
  <?php
  
@@ -32,7 +32,7 @@
      <label for="password">Password : </label>
     <input id="paswword" type="password" name="password"> <br> <br> <br>
     
-   <center><button name="submit" type="submit" class="button_design">Register</button></button></center>
+   <center><button name="submit" type="submit" class="button_design">Submit</button></button></center>
 </form>
     
 </div>        

@@ -184,7 +184,7 @@
 <body>
 
 <div class="container-fuild heading" >
-<p class="letter">E- Waste Management , Vellore</p>
+<p class="letter" >E- Waste Management</p>
 </div>
  <?php
  

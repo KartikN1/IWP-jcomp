@@ -85,7 +85,7 @@ body {
             border: none;
             outline: none;
             width: 70px;
-			padding:1%;
+            padding:1%;
 			font-size:16px;
         }
         .button_design:hover{
@@ -111,7 +111,7 @@ body {
             outline: none;
         }
         .login_text{
-            color: white;
+            color: black;
             background-color:#90EE90;
             border-radius: 10px;
 			padding:5px;
@@ -123,10 +123,10 @@ body {
 			background-color:#90EE90;
 			color: #696969;
 			width:100%;
-			/*height:70px;*/
-			/*margin-top:-15px;
+			height:70px;
+			margin-top:-15px; 
 			margin-left:10px;
-			margin-right:10px;*/
+			margin-right:10px;
 			padding-top:5px;
 			font:"MS Serif", "New York", serif;
 			font-size:xx-large;
@@ -142,8 +142,8 @@ body {
 		}
 		.letter{
 			text-align:center;
-			postion:relative;
-			top:-20px;
+			position: relative;
+			top: -20px;
 		}
 		.footer {
   position: fixed;

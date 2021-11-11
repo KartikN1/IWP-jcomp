@@ -25,7 +25,7 @@ $result = $conn->query("select password from van where drivernumber=$username2")
     
 //checking for password
 if($b==$password2){
-    echo "you are succesfully login";
+    echo "<script> alert('You have succesfully logged in')</script>";
     session_start();
     $_SESSION['username2']=$username2;
 	

@@ -24,15 +24,15 @@ die('There was an error running the query [' . $conn->error . ']');
 }
 else
 {
-echo "your data is updated in our database...";
-    header("Refresh: 5,url=cr.php");
+echo "<script> alert('Your company has been registered and you will be contacted soon.')</script>";
+    header("Refresh: 0.001,url=cr.php");
 }
   
     }
     else
     {
         echo"sorry";
-        header("Refresh: 5,url=cr.php");
+        header("Refresh: 0.001,url=cr.php");
         
     }
    
